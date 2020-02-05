@@ -1,5 +1,5 @@
 {
-  "name": "@trifoia/zcrmsdk",
+  "name": "zcrmsdk",
   "version": "0.1.1",
   "description": "Node SDK for Zoho CRM",
   "main": "lib/js/ZCRMRestClient",
@@ -34,10 +34,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Trifoia/zcrm-nodejs-sdk.git"
+    "url": "git+https://github.com/MortensenC/zcrm-nodejs-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/Trifoia/zcrm-nodejs-sdk/issues"
+    "url": "https://github.com/MortensenC/zcrm-nodejs-sdk/issues"
   },
-  "homepage": "https://github.com/Trifoia/zcrm-nodejs-sdk#readme"
+  "homepage": "https://github.com/MortensenC/zcrm-nodejs-sdk#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@mortensenc"
+  }
 }
